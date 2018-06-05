@@ -5,7 +5,7 @@ addons:
   sonarcloud:
     organization: "b6u5rejenxudr8yva"
     token:
-      secure: "03940eb85527a008dcd413d53969fa200d3dba0a"
+      secure: "e304a922c7eef972aded8d0e0c89cbd448e038f4"
 jdk:
   - oraclejdk8
 script:
