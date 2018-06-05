@@ -9,6 +9,10 @@ import java.io.IOException;
 
 public class JacksonConverter {
 
+    private JacksonConverter(){
+        // To stop anyone from creating an instance of this class.
+    }
+
     /**
      * Convert an object to a byte array.
      *
