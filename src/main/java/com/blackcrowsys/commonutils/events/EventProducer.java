@@ -1,6 +1,6 @@
 package com.blackcrowsys.commonutils.events;
 
-public interface EventService<V> {
+public interface EventProducer<V> {
 
     boolean submit(String service, String operation, V v);
 }
